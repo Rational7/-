@@ -1,0 +1,730 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	canvas-size:510px;
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.bigred{
+	font-size: 20px;
+	color: green;
+	border: solid;
+}
+
+.block {
+  background-color: grey;
+  height: inherit;
+  padding: inherit;
+  margin-left: inherit;
+  margin-right: inherit;
+  margin-top: inherit;
+}
+
+.man1 { 
+	animation-name: man1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man2 { 
+	animation-name: man2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man3 { 
+	animation-name: man3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man4 { 
+	animation-name: man4;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man5 { 
+	animation-name: man5;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man6 { 
+	animation-name: man6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man7 { 
+	animation-name: man7;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man8 { 
+	animation-name: man8;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+
+
+@keyframes man1{
+	0%{left: 60px; top: 60px;}
+	100%{left: 1220px; top: 60px;}
+}
+@keyframes man2{
+	0%{left: 20px; top: 60px;}
+	100%{left: 1180px; top: 60px;}
+}
+@keyframes man3{
+	0%{left: 40px; top: 60px;}
+	100%{left: 1200px; top: 60px;}
+}
+@keyframes man4{
+	0%{left: 60px; top: 60px;}
+	100%{left: 1220px; top: 60px;}
+}
+@keyframes man5{
+	0%{left: 80px; top: 60px;}
+	100%{left: 1240px; top: 60px;}
+}
+@keyframes man6{
+	0%{left: 100px; top: 60px;}
+	100%{left: 1260px; top: 60px;}
+}
+	@keyframes man7{
+	0%{left: 120px; top: 60px;}
+	100%{left: 1280px; top: 60px;}
+}
+
+
+.man1_1 { 
+	animation-name: man1_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man2_1 { 
+	animation-name: man2_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man3_1 { 
+	animation-name: man3_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man4_1 { 
+	animation-name: man4_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man5_1 { 
+	animation-name: man5_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man6_1 { 
+	animation-name: man6_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man7_1 { 
+	animation-name: man7_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man8_1 { 
+	animation-name: man8_1;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+
+@keyframes man1_1{
+	0%{left: 0px; top: 80px;}
+	100%{left: 1160px; top: 80px;}
+}
+@keyframes man2_1{
+	0%{left: 20px; top: 80px;}
+	100%{left: 1180px; top: 80px;}
+}
+@keyframes man3_1{
+	0%{left: 40px; top: 80px;}
+	100%{left: 1200px; top: 80px;}
+}
+@keyframes man4_1{
+	0%{left: 60px; top: 80px;}
+	100%{left: 1220px; top: 80px;}
+}
+@keyframes man5_1{
+	0%{left: 80px; top: 80px;}
+	100%{left: 1240px; top: 80px;}
+}
+@keyframes man6_1{
+	0%{left: 100px; top: 80px;}
+	100%{left: 1260px; top: 80px;}
+}
+	@keyframes man7_1{
+	0%{left: 120px; top: 80px;}
+	100%{left: 1280px; top: 80px;}
+}
+@keyframes man8_1{
+	0%{left: 140px; top: 80px;}
+	100%{left: 1300px; top: 80px;}
+}
+	@keyframes man9_1{
+	0%{left: 160px; top: 80px;}
+	100%{left: 1580px; top: 80px;}
+}
+
+
+.man1_2 { 
+	animation-name: man1_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man2_2 { 
+	animation-name: man2_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man3_2 { 
+	animation-name: man3_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man4_2 { 
+	animation-name: man4_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man5_2 { 
+	animation-name: man5_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man6_2 { 
+	animation-name: man6_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man7_2 { 
+	animation-name: man7_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man8_2 { 
+	animation-name: man8_2;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+
+
+@keyframes man1_2{
+	0%{left: 0px; top: 100px;}
+	100%{left: 1160px; top: 100px;}
+}
+@keyframes man2_2{
+	0%{left: 20px; top: 100px;}
+	100%{left: 1180px; top: 100px;}
+}
+@keyframes man3_2{
+	0%{left: 40px; top: 100px;}
+	100%{left: 1200px; top: 100px;}
+}
+@keyframes man4_2{
+	0%{left: 60px; top: 100px;}
+	100%{left: 1220px; top: 100px;}
+}
+@keyframes man5_2{
+	0%{left: 80px; top: 100px;}
+	100%{left: 1240px; top: 100px;}
+}
+@keyframes man6_2{
+	0%{left: 100px; top: 100px;}
+	100%{left: 1260px; top: 100px;}
+}
+	@keyframes man7_2{
+	0%{left: 120px; top: 100px;}
+	100%{left: 1280px; top: 100px;}
+}
+	@keyframes man8_2{
+	0%{left: 140px; top: 100px;}
+	100%{left: 1300px; top: 100px;}
+}
+
+.man1_3 { 
+	animation-name: man1_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man2_3 { 
+	animation-name: man2_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man3_3 { 
+	animation-name: man3_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man4_3{ 
+	animation-name: man4_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man5_3 { 
+	animation-name: man5_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man6_3 { 
+	animation-name: man6_3, man7_3, man8_3 ;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man7_3 { 
+	animation-name: man7_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man8_3 { 
+	animation-name: man8_3;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+
+@keyframes man1_3{
+	0%{left: 120px; top: 120px;}
+	100%{left: 1280px; top: 120px;}
+}
+@keyframes man2_3{
+	0%{left: 20px; top: 120px;}
+	100%{left: 1180px; top: 120px;}
+}
+@keyframes man3_3{
+	0%{left: 40px; top: 120px;}
+	100%{left: 1200px; top: 120px;}
+}
+@keyframes man4_3{
+	0%{left: 60px; top: 120px;}
+	100%{left: 1220px; top: 120px;}
+}
+@keyframes man5_3{
+	0%{left: 80px; top: 120px;}
+	100%{left: 1240px; top: 120px;}
+}
+@keyframes man6_3{
+	0%{left: 100px; top: 120px;}
+	100%{left: 1260px; top: 120px;}
+}
+
+
+.man1_4 { 
+	animation-name: man1_4;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man2_4 { 
+	animation-name: man2_4;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+
+@keyframes man1_4{
+	0%{left: 20px; top: 140px;}
+	100%{left: 1180px; top: 140px;}
+}
+@keyframes man2_4{
+	0%{left: 120px; top: 140px;}
+	100%{left: 1280px; top: 140px;}
+}
+
+.man1_5 { 
+	animation-name: man1_5;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man2_5 { 
+	animation-name: man2_5;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: steps(10,start);
+animation-delay:0;
+}
+.man3_5 { 
+	animation-name: man3_5;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man4_5 { 
+	animation-name: man4_5;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);}
+
+@keyframes man1_5{
+	0%{left: 40px; top: 40px;}
+	100%{left: 1200px; top: 40px;}
+}
+@keyframes man2_5{
+	0%{left: 100px; top: 40px;}
+	100%{left: 1260px; top: 40px;}
+}
+@keyframes man3_5{
+	0%{left: 20px; top: 20px;}
+	100%{left: 1180px; top: 20px;}
+}
+@keyframes man4_5{
+	0%{left: 120px; top: 20px;}
+	100%{left: 1280px; top: 20px;}
+}
+
+.man7_6 { 
+	animation-name: man7_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: step-start;
+}
+.man8_6 { 
+	animation-name: man8_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: step-start;
+}
+.man9_6 { 
+	animation-name: man9_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man10_6 { 
+	animation-name: man10_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);
+}
+.man11_6 { 
+	animation-name: man11_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: step-start;
+}
+.man12_6 { 
+	animation-name: man12_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: step-start;
+}
+.man13_6 { 
+	animation-name: man13_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: step-start;
+}
+.man14_6 { 
+	animation-name: man14_6;
+	animation-duration: 5s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: step-start;
+}
+
+
+@keyframes man7_6{	
+	0%{left: 140px; top: 160px;}
+	10%{left: 216px; top: 160px;}
+	20%{left: 372px; top: 160px;}
+	30%{left: 448px; top: 160px;}
+	40%{left: 604px; top: 160px;}
+	50%{left: 680px; top: 160px;}
+	60%{left: 836px; top: 160px;}
+	70%{left: 912px; top: 160px;}
+	80%{left: 1068px; top: 160px;}
+	90%{left: 1144px; top: 160px;}
+	100%{left: 1300px; top: 160px;}
+}
+
+@keyframes man8_6{
+	0%{left: 0px; top: 160px;}
+	10%{left: 156px; top: 160px;}
+	20%{left: 232px; top: 160px;}
+	30%{left: 388px; top: 160px;}
+	40%{left: 464px; top: 160px;}
+	50%{left: 620px; top: 160px;}
+	60%{left: 696px; top: 160px;}
+	70%{left: 852px; top: 160px;}
+	80%{left: 928px; top: 160px;}
+	90%{left: 1084px; top: 160px;}
+	100%{left: 1160px; top: 160px;}
+}
+
+@keyframes man9_6{
+	0%{left: 20px; top: 160px;}
+	100%{left: 1180px; top: 160px;}
+}
+	@keyframes man10_6{
+	0%{left: 120px; top: 160px;}
+	100%{left: 1280px; top: 160px;}
+}
+@keyframes man11_6{
+	0%{left: 160px; top: 80px;}
+	10%{left: 276px; top: 120px;}
+	20%{left: 392px; top: 80px;}
+	30%{left: 508px; top: 120px;}
+	40%{left: 624px; top: 80px;}
+	50%{left: 740px; top: 120px;}
+	60%{left: 856px; top: 80px;}
+	70%{left: 972px; top: 120px;}
+	80%{left: 1088px; top: 80px;}
+	90%{left: 1204px; top: 120px;}
+	100%{left: 1320px; top: 80px;}
+}
+
+@keyframes man12_6{
+	0%{left: 160px; top: 60px;}
+	10%{left: 276px; top: 100px;}
+	20%{left: 392px; top: 60px;}
+	30%{left: 508px; top: 100px;}
+	40%{left: 624px; top: 60px;}
+	50%{left: 740px; top: 100px;}
+	60%{left: 856px; top: 60px;}
+	70%{left: 972px; top: 100px;}
+	80%{left: 1088px; top: 60px;}
+	90%{left: 1204px; top: 100px;}
+	100%{left: 1320px; top: 60px;}
+}
+
+@keyframes man13_6{
+	0%{left: -20px; top: 80px;}
+	10%{left: 96px; top: 120px;}
+	20%{left: 212px; top: 80px;}
+	30%{left: 328px; top: 120px;}
+	40%{left: 444px; top: 80px;}
+	50%{left: 560px; top: 120px;}
+	60%{left: 676px; top: 80px;}
+	70%{left: 792px; top: 120px;}
+	80%{left: 908px; top: 80px;}
+	90%{left: 1024px; top: 120px;}
+	100%{left: 1140px; top: 80px;}
+}
+@keyframes man14_6{
+	0%{left: -20px; top: 60px;}
+	10%{left: 96px; top: 100px;}
+	20%{left: 212px; top: 60px;}
+	30%{left: 328px; top: 100px;}
+	40%{left: 444px; top: 60px;}
+	50%{left: 560px; top: 100px;}
+	60%{left: 676px; top: 60px;}
+	70%{left: 792px; top: 100px;}
+	80%{left: 908px; top: 60px;}
+	90%{left: 1024px; top: 100px;}
+	100%{left: 1140px; top: 60px;}
+}
+
+.all {	
+	animation-name: ;
+	animation-duration: 2s;
+	animation-timing-function: ease;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+animation-delay:0;
+animation-timing-function: steps(10,start);}
